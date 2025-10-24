@@ -21,9 +21,17 @@
     font-family: BarlowSemiCondensed-Light;
     src: url(fonts/BarlowSemiCondensed-Light.ttf);
 }
-.left-side{
-    
+.section{
+    display: flex;
+    margin: 5%;
 
+}
+.left-side{
+    width: 75%;
+
+}
+.right-side{
+    width: 25%;
 }
 
 .profile {
@@ -61,13 +69,18 @@
     display: flex;
 
 }
+.container{
+box-shadow: 6px 2px 100px rgba(0, 0, 0, 0.5);
+
+}
 #container1 {
     margin: 23px;
-    width: 50%;
+    width: 75%;
     height: auto;
     background-color: hsl(263, 55%, 52%);
     padding: 35px;
     border-radius: 12px;
+    
 }
 #container2 {
     margin: 23px;
@@ -81,14 +94,13 @@
     margin: 23px;
     width: 25%;
     height: auto;
-    color: hsl(217, 19%, 35%);
-    background-color: grey;
+    background-color: white;
     padding: 35px;
     border-radius: 12px;
 }
 #container4 {
     margin: 23px;
-    width: 50%;
+    width: 75%;
     height: auto;
     background-color: hsl(219, 29%, 14%);
     padding: 35px;
@@ -96,23 +108,75 @@
 }
 #container5 {
     margin: 23px;
-    width: 25%;
+    
     height: auto;
-    background-color: grey;
+    background-color: white;
     padding: 35px;
     border-radius: 12px;
 }
 
 #p1 {
     font-family: BarlowSemiCondensed-bold;
-    font-size: 16px;
+    font-size: 20px;
+    
 }
 
 #p2 {
     font-family: BarlowSemiCondensed;
     font-size: 16px;
 }
+#p3 {
+    font-family: BarlowSemiCondensed-bold;
+    font-size: 20px;
+}
 
+#p4 {
+    font-family: BarlowSemiCondensed;
+    font-size: 16px;
+}
+#p5 {
+    font-family: BarlowSemiCondensed-bold;
+    font-size: 20px;
+    color: hsl(217, 19%, 35%);
+    
+}
+
+#p6 {
+    font-family: BarlowSemiCondensed;
+    font-size: 16px;
+    color: hsl(217, 19%, 35%);
+
+}
+#profile3 h2,#profile3 h3{
+    color: hsl(217, 19%, 35%);
+
+}
+#p7 {
+    font-family: BarlowSemiCondensed-bold;
+    font-size: 20px;
+}
+
+#p8 {
+    font-family: BarlowSemiCondensed;
+    font-size: 16px;
+}
+#p9 {
+    font-family: BarlowSemiCondensed-bold;
+    font-size: 20px;
+    color: hsl(217, 19%, 35%);
+
+}
+
+#p10 {
+    font-family: BarlowSemiCondensed;
+    font-size: 16px;
+    color: hsl(217, 19%, 35%);
+
+}
+#profile5 h2, #profile5 h3{
+    color: hsl(217, 19%, 35%);
+    
+}
 .profile-text {
     display: flex;
     flex-direction: column;
